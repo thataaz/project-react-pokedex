@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "allowJs": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "jsx": "react-jsx",
+      "rootDir": "src",
+      "baseUrl": "src",
+      "resolveJsonModule": true,
+      "isolatedModules": false,
+      "noFallthroughCasesInSwitch": true,
+      "forceConsistentCasingInFileNames": true,
+    },
+    "include": [
+      "src/**/*",
+      "test"
+    ],
+    "exclude": []
+  }
